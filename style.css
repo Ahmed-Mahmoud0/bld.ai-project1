@@ -1,0 +1,382 @@
+body {
+  margin: 0;
+}
+
+nav {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  background-color: white;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  max-width: 100%;
+  vertical-align: middle;
+  margin-left: 2%;
+}
+
+.cat-nav {
+  margin-left: 1.6%;
+  margin-right: 1.6%;
+}
+
+.search-bar {
+  border: 1px solid black;
+  border-radius: 9999px;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 50rem;
+  height: 3.7em;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2% 0 2%;
+  flex-direction: row;
+}
+
+.search-input {
+  padding: 0 0 0 2%;
+  border: none;
+  height: 2rem;
+  width: 100%;
+  border-radius: 0;
+}
+.search-input:focus {
+  outline: none;
+}
+
+.search-button {
+  border-radius: 9999px;
+  height: 2rem;
+  border: none;
+  margin: 0%;
+  width: 10rem;
+}
+
+.nav-options {
+  margin-left: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 32rem;
+  padding-left: 0%;
+  padding-right: 1.2%;
+}
+
+.nav-option {
+  margin: 1.5%;
+}
+
+.txt-option-one {
+  margin-left: 0%;
+  margin-right: 5%;
+  width: 30rem;
+  padding-left: 4%;
+}
+.txt-option-two {
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 30rem;
+  padding-right: 0%;
+}
+
+.cart-icon {
+  padding: 0;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.login-button {
+  height: 2.5rem;
+  width: 5rem;
+  padding: 0;
+  margin-right: 0%;
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.signup-button {
+  height: 2.5rem;
+  width: 5rem;
+  margin-left: 0%;
+  padding-right: 0;
+  border-style: solid;
+  border-width: 1px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.lang-icon {
+  margin-top: 15%;
+  margin-right: 0%;
+  border-style: solid;
+  border-width: 1px;
+  padding: 22%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+/****************************************************************************/
+
+.header-container {
+  margin: 3%;
+  margin-top: 8%;
+  margin-bottom: 3%;
+  position: relative;
+}
+
+.header-image img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+.text-container {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 24rem;
+  height: auto;
+}
+.header-text {
+
+  box-sizing: content-box;
+  padding: 5%;
+  width: 100%;
+  height: auto;
+  background-color: antiquewhite;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.header-text h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.7rem;
+}
+.header-text p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/**************************************************************/
+
+main h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0%;
+    margin-left: 2%;
+}
+main h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+main p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2%;
+}
+main h6 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    font-weight: normal;
+    color: grey;
+}
+
+main {
+    margin: 5% 1% 5% 1%;
+}
+
+.courses {
+    border: 2px solid wheat;
+    padding: 1% 3% 3% 3%;
+    margin: 0% 1%;
+}
+.courses-intro p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 0%;
+}
+
+.explore-button {
+  background-color: #d68100; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.all-courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3% 0% 3% 0%;
+}
+
+.one-course {
+    width: fit-content;
+    height:fit-content;
+    margin: 1% 0.5% 1% 0.5%;
+    padding: 0% 0% 0% 0%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.course-img {
+    border: 1px solid rgb(196, 196, 196);
+    width: auto;
+    height: auto;
+    margin-bottom: 5%;
+    position: relative;
+    
+}
+.course-img img {
+    width: 20rem;
+    height: 12rem;
+}
+
+.course-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.course-details div *{
+    margin: 3% 0% 3% 0;
+    padding: 0;
+}
+
+.course-rating {
+    width: 105%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rate {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #b4690e;
+}
+.stars {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.star {
+      margin: 50px 0;
+      position: relative;
+      display: block;
+      color: #e59819;
+      width: 0px;
+      height: 0px;
+      border-right: 10px solid transparent;
+      border-bottom: 7px solid #e59819;
+      border-left: 10px solid transparent;
+      transform: rotate(35deg);
+}
+.star:before {
+    border-bottom: 8px solid #e59819;
+      border-left: 3px solid transparent;
+      border-right: 3px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -4.5px;
+      left: -6.5px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+}
+.star:after {
+    position: absolute;
+    display: block;
+    color: #e59819;
+    top: 0.3px;
+    left: -10.5px;
+    width: 0px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-bottom: 7px solid #e59819;
+    border-left: 10px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+
+  .enroll-count {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+    color: #6a6f73;
+  }
+
+  .course-price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .final-price {
+    display: inline-block;
+  }
+  .original-price {
+    display: inline-block;
+    color: grey;
+    text-decoration: line-through;
+    text-indent: 20%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************************/
+@media screen and (max-width: 800px) {
+  .text-container {
+    position: static;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0%, 0%);
+    max-width: 100%;
+  }
+}
