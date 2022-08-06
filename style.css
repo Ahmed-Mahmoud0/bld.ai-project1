@@ -16,7 +16,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 5rem;
+  height: 6rem;
   background-color: white;
   box-shadow: 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
 }
@@ -138,11 +138,36 @@ nav {
   margin-right: 0%;
 }
 
+.small-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5rem;
+  background-color: white;
+  box-shadow: 1px 2px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: none;
+}
+
+.drop-menu {
+  vertical-align: middle;
+  margin-left: 2%;
+}
+
+.icons-small {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 2%;
+  width: 13%
+}
+
+
 /****************************************************************************/
 
 .header-container {
   margin: 3%;
-  margin-top: 8%;
+  margin-top: 20vh;
   margin-bottom: 3%;
   position: relative;
 }
@@ -370,6 +395,7 @@ main {
 
 /***************************************************************************/
 @media screen and (max-width: 800px) {
+
   .text-container {
     position: static;
     width: auto;
@@ -382,4 +408,17 @@ main {
     transform: translate(0%, 0%);
     max-width: 100%;
   }
+
+  .main-nav {
+    display: none;
+  }
+  .small-nav {
+    display: flex;
+  }
+
+  .header-container {
+    margin-top: 12vh;
+  }
+
+
 }
