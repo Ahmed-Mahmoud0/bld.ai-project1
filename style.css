@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  cursor: default;
 }
 
 nav {
@@ -162,6 +163,34 @@ nav {
   width: 13%
 }
 
+.search-bar:hover {
+  border-color: rgb(0, 150, 150);
+}
+.search-button:hover {
+  background-color: rgb(0, 210, 210);
+}
+
+.cat-nav:hover {
+  color: rgb(0, 150, 150);
+}
+
+.nav-option:hover {
+  color: rgb(0, 150, 150);
+}
+
+.login-button:hover {
+  background-color: #eee;
+  border-color: rgb(0, 150, 150);
+}
+
+.signup-button:hover {
+  background-color: rgb(53, 48, 48);
+  border-color: rgb(0, 150, 150);
+}
+
+.lang-icon:hover {
+  background-color: #eee;
+}
 
 /****************************************************************************/
 
@@ -192,6 +221,7 @@ nav {
   height: auto;
 
 }
+
 .header-text {
   margin-top: 0;
   padding: 5%;
@@ -199,6 +229,9 @@ nav {
   height: auto;
   background-color: rgb(255, 255, 255);
   box-shadow: 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.header-text:hover {
+  background-color: rgb(0, 150, 150);
 }
 
 .header-text h1 {
@@ -268,6 +301,10 @@ main {
   display: inline-block;
   font-size: 15px;
 }
+.explore-button:hover {
+  background-color: rgb(0, 150, 150);
+  border: 1px solid rgb(0, 150, 150);
+}
 
 .all-courses {
     display: flex;
@@ -297,6 +334,9 @@ main {
     position: relative;
     
 }
+.course-img:hover {
+  cursor: pointer;
+}
 .course-img img {
     width: 20rem;
     height: 12rem;
@@ -313,7 +353,9 @@ main {
     margin: 3% 0% 3% 0;
     padding: 0;
 }
-
+.course-title:hover {
+  cursor: pointer;
+}
 .course-rating {
     width: 105%;
     position: relative;
