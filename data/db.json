@@ -1,0 +1,74 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "image": "https://i.ytimg.com/vi/rfscVS0vtbw/maxresdefault.jpg",
+      "title": "Python Basics",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 537,
+      "price": 149.99,
+      "originalPrice": 199.99
+    },
+    {
+      "id": 2,
+      "image": "http://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/10/Data-Structures-in-Python.jpg",
+      "title": "Data Structures",
+      "instructor": "edureka!",
+      "rate": 5,
+      "enrollCount": 488,
+      "price": 179.99,
+      "originalPrice": 239.99
+    },
+    {
+      "id": 3,
+      "image": "https://i.ytimg.com/vi/Ej_02ICOIgs/maxresdefault.jpg",
+      "title": "Python OOP",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 312,
+      "price": 209.99,
+      "originalPrice": 249.99
+    },
+    {
+      "id": 4,
+      "image": "https://i.ytimg.com/vi/Qr4QMBUPxWo/maxresdefault.jpg",
+      "title": "Python Flask",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 498,
+      "price": 189.99,
+      "originalPrice": 199.99
+    },
+    {
+      "id": 5,
+      "image": "https://i.ytimg.com/vi/GPVsHOlRBBI/maxresdefault.jpg",
+      "title": "Data Analysis",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 741,
+      "price": 259.99,
+      "originalPrice": 349.99
+    },
+    {
+      "id": 6,
+      "image": "https://i.ytimg.com/vi/0D-PCtUJInE/maxresdefault.jpg",
+      "title": "Machine Learning",
+      "instructor": "edureka!",
+      "rate": 5,
+      "enrollCount": 829,
+      "price": 309.99,
+      "originalPrice": 499.99
+    },
+    {
+      "id": 7,
+      "image": "https://i.ytimg.com/vi/LHBE6Q9XlzI/maxresdefault.jpg",
+      "title": "Data Science",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 911,
+      "price": 499.99,
+      "originalPrice": 799.99
+    }
+  ]
+}

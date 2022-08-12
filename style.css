@@ -434,6 +434,26 @@ main {
   }
 
 
+  .categories {
+    width: 45rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .category-item {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: grey;
+  }
+  .category-item:hover {
+    color: black;
+    cursor: pointer;
+  }
 
 
 
@@ -474,6 +494,15 @@ main {
 
   .all-courses {
     flex-direction: column;
+  }
+
+  .categories {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 96%;
+  }
+  .category-item {
+    margin-bottom: 0.5rem;
   }
 
 
