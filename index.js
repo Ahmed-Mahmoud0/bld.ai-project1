@@ -31,8 +31,6 @@ const renderCourses = async () => {
     }
   }
 
-  console.log(currentCourses);
-
   let template = "";
   currentCourses.forEach((course) => {
     template += `
@@ -127,6 +125,9 @@ searchInput.addEventListener("input", async (e) => {
   const searchButton = document.querySelector(".search-button");
 
   searchButton.addEventListener("click", (e) => {
+    tabsArray.forEach((ele) => {
+      ele.classList.remove("active");
+    });
     e.preventDefault();
     allCourses.innerHTML = template;
   });
