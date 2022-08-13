@@ -2,6 +2,7 @@
   "courses": [
     {
       "id": 1,
+      "section": "Python",
       "image": "https://i.ytimg.com/vi/rfscVS0vtbw/maxresdefault.jpg",
       "title": "Python Basics",
       "instructor": "freeCodeCamp",
@@ -12,6 +13,7 @@
     },
     {
       "id": 2,
+      "section": "Python",
       "image": "http://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/10/Data-Structures-in-Python.jpg",
       "title": "Data Structures",
       "instructor": "edureka!",
@@ -22,6 +24,7 @@
     },
     {
       "id": 3,
+      "section": "Python",
       "image": "https://i.ytimg.com/vi/Ej_02ICOIgs/maxresdefault.jpg",
       "title": "Python OOP",
       "instructor": "freeCodeCamp",
@@ -32,6 +35,7 @@
     },
     {
       "id": 4,
+      "section": "Python",
       "image": "https://i.ytimg.com/vi/Qr4QMBUPxWo/maxresdefault.jpg",
       "title": "Python Flask",
       "instructor": "freeCodeCamp",
@@ -42,6 +46,7 @@
     },
     {
       "id": 5,
+      "section": "Data Science",
       "image": "https://i.ytimg.com/vi/GPVsHOlRBBI/maxresdefault.jpg",
       "title": "Data Analysis",
       "instructor": "freeCodeCamp",
@@ -52,6 +57,7 @@
     },
     {
       "id": 6,
+      "section": "Data Science",
       "image": "https://i.ytimg.com/vi/0D-PCtUJInE/maxresdefault.jpg",
       "title": "Machine Learning",
       "instructor": "edureka!",
@@ -62,6 +68,7 @@
     },
     {
       "id": 7,
+      "section": "Data Science",
       "image": "https://i.ytimg.com/vi/LHBE6Q9XlzI/maxresdefault.jpg",
       "title": "Data Science",
       "instructor": "freeCodeCamp",
@@ -69,6 +76,172 @@
       "enrollCount": 911,
       "price": 499.99,
       "originalPrice": 799.99
+    },
+    {
+      "id": 8,
+      "section": "Excel",
+      "image": "https://i.ytimg.com/vi/Vl0H-qTclOg/maxresdefault.jpg",
+      "title": "Excel 1",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 741,
+      "price": 259.99,
+      "originalPrice": 349.99
+    },
+    {
+      "id": 9,
+      "section": "Excel",
+      "image": "https://i.ytimg.com/vi/Vl0H-qTclOg/maxresdefault.jpg",
+      "title": "Excel 2",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 829,
+      "price": 309.99,
+      "originalPrice": 499.99
+    },
+    {
+      "id": 10,
+      "section": "Excel",
+      "image": "https://i.ytimg.com/vi/Vl0H-qTclOg/maxresdefault.jpg",
+      "title": "Excel 3",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 911,
+      "price": 499.99,
+      "originalPrice": 799.99
+    },
+    {
+      "id": 11,
+      "section": "Web Development",
+      "image": "https://www.freecodecamp.org/news/content/images/2021/08/webdev-bootcamp-banner.png",
+      "title": "Web 1",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 741,
+      "price": 259.99,
+      "originalPrice": 349.99
+    },
+    {
+      "id": 12,
+      "section": "Web Development",
+      "image": "https://www.freecodecamp.org/news/content/images/2021/08/webdev-bootcamp-banner.png",
+      "title": "Web 2",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 829,
+      "price": 309.99,
+      "originalPrice": 499.99
+    },
+    {
+      "id": 13,
+      "section": "Web Development",
+      "image": "https://www.freecodecamp.org/news/content/images/2021/08/webdev-bootcamp-banner.png",
+      "title": "Web 3",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 911,
+      "price": 499.99,
+      "originalPrice": 799.99
+    },
+    {
+      "id": 14,
+      "section": "JavaScript",
+      "image": "https://www.freecodecamp.org/news/content/images/2021/06/javascriptfull.png",
+      "title": "JavaScript 1",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 741,
+      "price": 259.99,
+      "originalPrice": 349.99
+    },
+    {
+      "id": 15,
+      "section": "JavaScript",
+      "image": "https://www.freecodecamp.org/news/content/images/2021/06/javascriptfull.png",
+      "title": "JavaScript 2",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 829,
+      "price": 309.99,
+      "originalPrice": 499.99
+    },
+    {
+      "id": 16,
+      "section": "JavaScript",
+      "image": "https://www.freecodecamp.org/news/content/images/2021/06/javascriptfull.png",
+      "title": "JavaScript 3",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 911,
+      "price": 499.99,
+      "originalPrice": 799.99
+    },
+    {
+      "id": 17,
+      "section": "AWS Certification",
+      "image": "https://www.freecodecamp.org/news/content/images/2021/11/aws-certified-cloud-prac-image.png",
+      "title": "AWS Certification 1",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 741,
+      "price": 259.99,
+      "originalPrice": 349.99
+    },
+    {
+      "id": 18,
+      "section": "AWS Certification",
+      "image": "https://www.freecodecamp.org/news/content/images/2021/11/aws-certified-cloud-prac-image.png",
+      "title": "AWS Certification 2",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 829,
+      "price": 309.99,
+      "originalPrice": 499.99
+    },
+    {
+      "id": 19,
+      "section": "AWS Certification",
+      "image": "https://www.freecodecamp.org/news/content/images/2021/11/aws-certified-cloud-prac-image.png",
+      "title": "AWS Certification 3",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 911,
+      "price": 499.99,
+      "originalPrice": 799.99
+    },
+    {
+      "id": 20,
+      "section": "Drawing",
+      "image": "https://www.freecodecamp.org/news/content/images/2022/01/autocad.png",
+      "title": "Drawing 1",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 741,
+      "price": 259.99,
+      "originalPrice": 349.99
+    },
+    {
+      "id": 21,
+      "section": "Drawing",
+      "image": "https://www.freecodecamp.org/news/content/images/2022/01/autocad.png",
+      "title": "Drawing 2",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 829,
+      "price": 309.99,
+      "originalPrice": 499.99
+    },
+    {
+      "id": 22,
+      "section": "Drawing",
+      "image": "https://www.freecodecamp.org/news/content/images/2022/01/autocad.png",
+      "title": "Drawing 3",
+      "instructor": "freeCodeCamp",
+      "rate": 5,
+      "enrollCount": 911,
+      "price": 499.99,
+      "originalPrice": 799.99
     }
+
   ]
 }

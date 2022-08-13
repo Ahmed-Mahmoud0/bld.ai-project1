@@ -1,12 +1,40 @@
 const allCourses = document.querySelector(".all-courses");
 
+const tabs = document.querySelectorAll(".category-item");
+const tabsArray = Array.from(tabs);
+
+tabsArray.forEach((ele) => {
+  ele.addEventListener("click", (e) => {
+    tabsArray.forEach((ele) => {
+      ele.classList.remove("active");
+    });
+    e.currentTarget.classList.add("active");
+    renderCourses();
+  });
+});
+
 const renderCourses = async () => {
   let uri = "http://localhost:3000/courses";
   const res = await fetch(uri);
   let courses = await res.json();
 
+  let currentTab;
+  tabsArray.forEach((ele) => {
+    if (ele.classList.contains("active")) currentTab = ele.textContent;
+  });
+
+  let currentCourses = [];
+
+  for (const course of courses) {
+    if (course.section == currentTab) {
+      currentCourses.push(course);
+    }
+  }
+
+  console.log(currentCourses);
+
   let template = "";
-  courses.forEach((course) => {
+  currentCourses.forEach((course) => {
     template += `
     <div class="one-course">
         <div class="course-img">

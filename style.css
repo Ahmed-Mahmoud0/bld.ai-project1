@@ -160,7 +160,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   margin-right: 2%;
-  width: 13%
+  width: 13%;
 }
 
 .search-bar:hover {
@@ -219,7 +219,6 @@ nav {
   align-items: center;
   max-width: 24rem;
   height: auto;
-
 }
 
 .header-text {
@@ -250,49 +249,50 @@ nav {
 }
 
 main h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 0%;
-    margin-left: 2%;
-    font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 0%;
+  margin-left: 2%;
+  font-size: 150%;
 }
 main h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 150%;
 }
 main p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 2%;
-    font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 2%;
+  font-size: 100%;
 }
 .courses p {
-    margin-left: 0%;
-    font-size: 100%;
+  margin-left: 0%;
+  font-size: 100%;
 }
 main h6 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 80%;
-    font-weight: normal;
-    color: grey;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 80%;
+  font-weight: normal;
+  color: grey;
 }
 
 main {
-    margin: 5% 1% 5% 1%;
+  margin: 5% 1% 5% 1%;
 }
 
 .courses {
-    border: 1px solid rgb(228, 228, 228);
-    padding: 1% 3% 3% 3%;
-    margin: 0% 1%;
-    width: fit-content;
+  border: 1px solid rgb(228, 228, 228);
+  padding: 1% 3% 3% 3%;
+  margin: 0% 1%;
+  width: fit-content;
 }
 .courses-intro p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-right: 0%;
-    font-size: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-right: 0%;
+  font-size: 100%;
 }
 
 .explore-button {
-  background-color: white; 
+  background-color: white;
   border: 1px solid black;
   color: black;
   padding: 10px 20px;
@@ -307,167 +307,157 @@ main {
 }
 
 .all-courses {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 3% 0% 3% 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3% 0% 3% 0%;
 }
 
 .one-course {
-    width: fit-content;
-    height:fit-content;
-    margin: 1% 0.5% 1% 0.5%;
-    padding: 0% 0% 0% 0%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+  width: fit-content;
+  height: fit-content;
+  margin: 1% 0.5% 1% 0.5%;
+  padding: 0% 0% 0% 0%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .course-img {
-    border: 1px solid rgb(196, 196, 196);
-    width: auto;
-    height: auto;
-    margin-bottom: 5%;
-    position: relative;
-    
+  border: 1px solid rgb(196, 196, 196);
+  width: auto;
+  height: auto;
+  margin-bottom: 5%;
+  position: relative;
 }
 .course-img:hover {
   cursor: pointer;
 }
 .course-img img {
-    width: 20rem;
-    height: 12rem;
+  width: 20rem;
+  height: 12rem;
 }
 
 .course-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.course-details div *{
-    margin: 3% 0% 3% 0;
-    padding: 0;
+.course-details div * {
+  margin: 3% 0% 3% 0;
+  padding: 0;
 }
 .course-title:hover {
   cursor: pointer;
 }
 .course-rating {
-    width: 105%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 105%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .rate {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: #b4690e;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #b4690e;
 }
 .stars {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .star {
-      margin: 50px 0;
-      position: relative;
-      display: block;
-      color: #e59819;
-      width: 0px;
-      height: 0px;
-      border-right: 10px solid transparent;
-      border-bottom: 7px solid #e59819;
-      border-left: 10px solid transparent;
-      transform: rotate(35deg);
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: #e59819;
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid #e59819;
+  border-left: 10px solid transparent;
+  transform: rotate(35deg);
 }
 .star:before {
-    border-bottom: 8px solid #e59819;
-      border-left: 3px solid transparent;
-      border-right: 3px solid transparent;
-      position: absolute;
-      height: 0;
-      width: 0;
-      top: -4.5px;
-      left: -6.5px;
-      display: block;
-      content: '';
-      transform: rotate(-35deg);
+  border-bottom: 8px solid #e59819;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -4.5px;
+  left: -6.5px;
+  display: block;
+  content: "";
+  transform: rotate(-35deg);
 }
 .star:after {
-    position: absolute;
-    display: block;
-    color: #e59819;
-    top: 0.3px;
-    left: -10.5px;
-    width: 0px;
-    height: 0px;
-    border-right: 10px solid transparent;
-    border-bottom: 7px solid #e59819;
-    border-left: 10px solid transparent;
-    transform: rotate(-70deg);
-    content: '';
-  }
+  position: absolute;
+  display: block;
+  color: #e59819;
+  top: 0.3px;
+  left: -10.5px;
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid #e59819;
+  border-left: 10px solid transparent;
+  transform: rotate(-70deg);
+  content: "";
+}
 
-  .enroll-count {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: smaller;
-    color: #6a6f73;
-  }
+.enroll-count {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: smaller;
+  color: #6a6f73;
+}
 
-  .course-price {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .final-price {
-    display: inline-block;
-  }
-  .original-price {
-    display: inline-block;
-    color: grey;
-    text-decoration: line-through;
-    text-indent: 20%;
-  }
+.course-price {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.final-price {
+  display: inline-block;
+}
+.original-price {
+  display: inline-block;
+  color: grey;
+  text-decoration: line-through;
+  text-indent: 20%;
+}
 
+.categories {
+  width: 45rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
 
-  .categories {
-    width: 45rem;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 1%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
-
-  .category-item {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    color: grey;
-  }
-  .category-item:hover {
-    color: black;
-    cursor: pointer;
-  }
-
-
-
-
-
-
-
-
-
-
+.category-item {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: grey;
+}
+.category-item:hover {
+  color: black;
+  cursor: pointer;
+}
+.active {
+  color: black;
+}
 
 /***************************************************************************/
 @media screen and (max-width: 800px) {
-
   .text-container {
     position: static;
     width: auto;
@@ -504,6 +494,4 @@ main {
   .category-item {
     margin-bottom: 0.5rem;
   }
-
-
 }
