@@ -3,12 +3,45 @@ const allCourses = document.querySelector(".all-courses");
 const tabs = document.querySelectorAll(".category-item");
 const tabsArray = Array.from(tabs);
 
+let leftButtons = document.querySelectorAll(".left-btn");
+let rightButtons = document.querySelectorAll(".right-btn");
+leftButtons = Array.from(leftButtons);
+rightButtons = Array.from(rightButtons);
+
 tabsArray.forEach((ele) => {
   ele.addEventListener("click", (e) => {
     tabsArray.forEach((ele) => {
       ele.classList.remove("active");
     });
     e.currentTarget.classList.add("active");
+    renderCourses();
+  });
+});
+
+rightButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    console.log("clicked right");
+    for (let i = 0; i < tabsArray.length - 1; i++) {
+      if (tabsArray[i].classList.contains("active")) {
+        tabsArray[i].classList.remove("active");
+        tabsArray[i + 1].classList.add("active");
+        break;
+      }
+    }
+    renderCourses();
+  });
+});
+
+leftButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    console.log("clicked left");
+    for (let i = 1; i < tabsArray.length; i++) {
+      if (tabsArray[i].classList.contains("active")) {
+        tabsArray[i].classList.remove("active");
+        tabsArray[i - 1].classList.add("active");
+        break;
+      }
+    }
     renderCourses();
   });
 });

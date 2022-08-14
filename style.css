@@ -306,6 +306,11 @@ main {
   border: 1px solid rgb(0, 150, 150);
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
 .all-courses {
   display: flex;
   flex-direction: row;
@@ -313,6 +318,47 @@ main {
   align-items: center;
   flex-wrap: wrap;
   padding: 3% 0% 3% 0%;
+  width: 100%;
+}
+.left-button {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  left: -40px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.right-button {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  right: -40px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.left-button-icon {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  position: absolute;
+  left: -37px;
+  z-index: 1;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent white transparent transparent;
+}
+.right-button-icon {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  position: absolute;
+  right: -37px;
+  z-index: 1;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent transparent white;
 }
 
 .one-course {
