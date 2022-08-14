@@ -306,7 +306,7 @@ main {
   border: 1px solid rgb(0, 150, 150);
 }
 
-.container {
+.c-container {
   display: flex;
   align-items: center;
   position: relative;
@@ -502,6 +502,28 @@ main {
   color: black;
 }
 
+.container {
+  max-width: 100%;
+}
+
+.container * {
+  margin: 0;
+}
+
+.container div {
+  margin-bottom: 2%;
+}
+
+.container img:hover {
+  cursor: pointer;
+  width: 70%;
+}
+
+figcaption {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
 /***************************************************************************/
 @media screen and (max-width: 800px) {
   .text-container {
@@ -539,5 +561,14 @@ main {
   }
   .category-item {
     margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container div {
+    width: fit-content;
+  }
+  .row {
+    justify-content: center;
   }
 }
